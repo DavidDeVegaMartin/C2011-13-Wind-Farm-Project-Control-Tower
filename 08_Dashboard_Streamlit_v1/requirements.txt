@@ -1,5 +1,6 @@
 
+
 streamlit>=1.51
 pandas
 plotly
--e ./gantt_component
+-e ./08_Dashboard_Streamlit_v1/gantt_component
