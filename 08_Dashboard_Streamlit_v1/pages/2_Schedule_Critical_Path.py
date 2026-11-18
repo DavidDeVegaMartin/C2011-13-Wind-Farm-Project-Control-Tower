@@ -268,18 +268,9 @@ wbs_lookup = wbs.set_index("WBS").to_dict("index")
 
 def build_dhtmlx_gantt():
 
-    # Assets locales de DHTMLX, reutilizando la instalación validada.
+    # Assets locales de DHTMLX, incluidos en el repositorio.
     app_dir = Path(__file__).resolve().parents[1]
-
-    codebase = (
-        app_dir
-        / "gantt_component"
-        / "gantt_component"
-        / "frontend"
-        / "node_modules"
-        / "dhtmlx-gantt"
-        / "codebase"
-    )
+    codebase = app_dir / "assets" / "dhtmlx-gantt"
 
     css_path = codebase / "dhtmlxgantt.css"
     js_path = codebase / "dhtmlxgantt.js"
