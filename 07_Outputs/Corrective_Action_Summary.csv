@@ -1,0 +1,4 @@
+﻿Scenario_ID,Duration_Before_Actions,Delay_Before_Actions,Activity_Impact_Before,Supply_Impact_Before,Duration_After_Actions,Delay_After_Actions,Activity_Impact_After,Supply_Impact_After,Critical_Activity_IDs,Project_Days_Recovered,Delay_Reduction_Pct
+SC01,299,0,0,15,299.0,0.0,0,5,"[12, 18, 20]",0.0,0.0
+SC02,306,7,7,0,301.0,2.0,2,0,"[12, 18, 20]",5.0,71.42857142857143
+SC03,306,7,7,15,301.0,2.0,2,5,"[12, 18, 20]",5.0,71.42857142857143

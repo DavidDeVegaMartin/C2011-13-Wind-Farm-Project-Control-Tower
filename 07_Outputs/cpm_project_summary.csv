@@ -1,0 +1,2 @@
+﻿Project_Duration_CPM_Days,Activities,Dependencies,Critical_Activities,Network_Is_DAG,Lag_Assumption_Days
+299.0,135,150,3,True,0.0

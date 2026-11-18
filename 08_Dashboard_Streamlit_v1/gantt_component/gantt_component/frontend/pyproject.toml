@@ -1,0 +1,20 @@
+
+[build-system]
+requires = ["setuptools>=77.0.3", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wind-farm-gantt-component"
+version = "0.1.0"
+description = "Hierarchical Gantt component for Streamlit"
+requires-python = ">=3.11"
+dependencies = ["streamlit>=1.51"]
+
+[tool.setuptools.packages.find]
+include = ["gantt_component*"]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+gantt_component = ["frontend/build/**/*", "pyproject.toml"]

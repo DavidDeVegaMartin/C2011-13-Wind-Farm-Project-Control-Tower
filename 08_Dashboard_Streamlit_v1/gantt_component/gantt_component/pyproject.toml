@@ -1,0 +1,7 @@
+[project]
+name = "wind-farm-gantt-component"
+version = "0.1.0"
+
+[[tool.streamlit.component.components]]
+name = "gantt"
+asset_dir = "frontend/build"

@@ -1,0 +1,37 @@
+Nº	Archivo	Ruta de origen
+1	Activity_Master.xlsx	03_Outputs\Activity_Master.xlsx
+2	Activity_Tracking.xlsx	03_Outputs\Activity_Tracking.xlsx
+3	Project_Tracking.xlsx	03_Outputs\Project_Tracking.xlsx
+
+
+4	Schedule_Control.xlsx	07_Outputs\Schedule_Control.xlsx
+5	cpm_activity_schedule.csv	07_Outputs\cpm_activity_schedule.csv
+6	cpm_dependencies.csv	07_Outputs\cpm_dependencies.csv
+7	cpm_project_summary.csv	07_Outputs\cpm_project_summary.csv
+8	Scenario_Configuration.xlsx	07_Outputs\Scenario_Configuration.xlsx
+9	Scenario_Simulation_Results.xlsx	07_Outputs\Scenario_Simulation_Results.xlsx
+10	Corrective_Action_Evaluation.xlsx	07_Outputs\Corrective_Action_Evaluation.xlsx
+11	Economic_Impact_Assessment.xlsx	07_Outputs\Economic_Impact_Assessment.xlsx
+
+
+
+Alternativa más rápida: copiar los 11 de una vez
+Desde Anaconda Prompt, situado en la raíz del proyecto, ejecuta:
+
+
+mkdir "08_Dashboard_Streamlit_v1\data"
+
+copy "03_Outputs\Activity_Master.xlsx" "08_Dashboard_Streamlit_v1\data\"
+copy "03_Outputs\Activity_Tracking.xlsx" "08_Dashboard_Streamlit_v1\data\"
+copy "03_Outputs\Project_Tracking.xlsx" "08_Dashboard_Streamlit_v1\data\"
+
+copy "07_Outputs\Schedule_Control.xlsx" "08_Dashboard_Streamlit_v1\data\"
+copy "07_Outputs\cpm_activity_schedule.csv" "08_Dashboard_Streamlit_v1\data\"
+copy "07_Outputs\cpm_dependencies.csv" "08_Dashboard_Streamlit_v1\data\"
+copy "07_Outputs\cpm_project_summary.csv" "08_Dashboard_Streamlit_v1\data\"
+copy "07_Outputs\Scenario_Configuration.xlsx" "08_Dashboard_Streamlit_v1\data\"
+copy "07_Outputs\Scenario_Simulation_Results.xlsx" "08_Dashboard_Streamlit_v1\data\"
+copy "07_Outputs\Corrective_Action_Evaluation.xlsx" "08_Dashboard_Streamlit_v1\data\"
+copy "07_Outputs\Economic_Impact_Assessment.xlsx" "08_Dashboard_Streamlit_v1\data\"
+
+dir "08_Dashboard_Streamlit_v1\data"

@@ -1,0 +1,4 @@
+﻿Scenario_ID,Project_Duration_Days,Project_Delay_Days,Activity_Delay_Days,Supply_Delay_Days,Activities_With_Date_Changes,Activities_With_Float_Consumption,Critical_Activities,New_Critical_Activities,Activities_No_Longer_Critical,Critical_Activity_IDs
+SC01,299.0,0.0,0.0,15,0,0,3,[],[],"[12, 18, 20]"
+SC02,306.0,7.0,7.0,0,1,0,3,[],[],"[12, 18, 20]"
+SC03,306.0,7.0,7.0,15,1,0,3,[],[],"[12, 18, 20]"

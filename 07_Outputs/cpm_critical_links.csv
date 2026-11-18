@@ -1,0 +1,3 @@
+﻿Predecessor_ID,Successor_ID,Relation_Type,Lag
+12,18,FS,0.0
+18,20,FS,0.0

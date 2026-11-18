@@ -1,0 +1,19 @@
+{
+  "name": "wind-farm-gantt",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --watch",
+    "typecheck": "tsc --noEmit",
+    "build": "npm run typecheck && vite build"
+  },
+  "dependencies": {
+    "@streamlit/component-v2-lib": "^0.2.0",
+    "dhtmlx-gantt": "10.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  }
+}
